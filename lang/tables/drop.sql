@@ -14,8 +14,13 @@ CREATE TABLE PETS(
    PRIMARY KEY (ID)
 );
 
-DROP TABLE PETS;
+SHOW TABLES;
+-- OUTPUT:
+-- Tables_in_mydb
+-- PETS
+-- USERS
 
+DROP TABLE PETS;
 SHOW TABLES;
 -- OUTPUT:
 -- Tables_in_mydb
