@@ -17,3 +17,24 @@ SELECT * FROM mydb.USERS;
 -- 1		ann		20
 -- 2		bob		21
 -- 3		cat		22
+
+SELECT ID, NAME FROM USERS;
+-- OUTPUT:
+-- ID		NAME
+-- 1		ann
+-- 2		bob
+-- 3		cat
+
+SELECT NAME, AGE FROM USERS;
+-- OUTPUT:
+-- NAME	AGE
+-- ann		20
+-- bob		21
+-- cat		22
+
+SELECT NAME FROM USERS;
+-- OUTPUT:
+-- NAME
+-- ann
+-- bob
+-- cat
