@@ -1,9 +1,9 @@
-DROP DATABASE IF EXISTS demo;
-CREATE DATABASE demo;
+DROP DATABASE IF EXISTS mydb;
+CREATE DATABASE mydb;
 SHOW DATABASES;
 -- OUTPUT:
 -- Database
--- demo
+-- mydb
 -- information_schema
 -- mysql
 -- performance_schema
