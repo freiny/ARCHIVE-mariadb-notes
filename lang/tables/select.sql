@@ -1,4 +1,3 @@
--- select user,password,host from mysql.user;
 USE mydb;
 
 CREATE TABLE USERS(
